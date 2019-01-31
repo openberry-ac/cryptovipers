@@ -1,0 +1,34 @@
+{
+  "name": "cryptovipers",
+  "description": "OpenBerry's tutorial for CryptoKitties",
+  "version": "1.0.0",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^2.0.0-rc.2",
+    "popper.js": "^1.12.9",
+    "vue": "^2.5.3",
+    "web3": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
